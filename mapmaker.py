@@ -68,6 +68,7 @@ def main(page: ft.Page):
                         on_click=tile_clicked if layer == 2 else None,
                         on_hover=tile_hovered if layer == 2 else None,
                         data= i,
+                        ink_color= ft.Colors.WHITE
                         # disabled = True
                     ))
                     new_row.controls.append(map_items[layer][i])
