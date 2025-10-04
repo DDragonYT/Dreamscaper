@@ -69,7 +69,6 @@ def main(page: ft.Page):
                         on_hover=tile_hovered if layer == 2 else None,
                         data= i,
                         ink_color= ft.Colors.WHITE
-                        # disabled = True
                     ))
                     new_row.controls.append(map_items[layer][i])
                     i += 1
@@ -83,11 +82,9 @@ def main(page: ft.Page):
             for layer in display_stack.controls:
                 layer.visible = True
                 layer.opacity = 1
-                layer.disabled = True
             page.update()
         else:
             for i in range(0,3):
-                display_columns[i].disabled = False
                 if i <= e.control.data:
                     display_columns[i].opacity = 1
                     if i != e.control.data:
