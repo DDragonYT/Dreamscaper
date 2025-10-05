@@ -7,4 +7,4 @@ with open("newmap.txt", "w") as newmap:
     for line in lineslist:
         text += line.strip("\n") + "\n"
     newmap.write(text)
-    
+        

@@ -2,23 +2,26 @@
     "height":14,
     "width":27,
     "cam_bump":0,
-    "doors":[131, 157],
+    "doors":[162, 135],
     "door_info":[{
       "map": 5,
-      "x":16,
-      "y":198,
-      "destx": 802,
-      "desty": 202
+      "x":-16,"y":206,
+      "destx": 1270,
+      "desty": 206
 },
 {
       "map": 5,
-      "x":16,
-      "y":198,
-      "destx": 802,
-      "desty": 202
+      "x":-16,"y":176,
+      "destx": 1270,
+      "desty": 176
 }
       
     ],
+    "interact":[183, 157, 229, 230],
+    "interact_id":[1,1,2,2],
+    "interact_infos":[{"type":"text", "content":[{"text":"It appears to be a homemade barricade... no way of getting past","face":""},{"text":"Clearly someone forgot to clean up.","face":"p_lookahead"}]},
+{"type":"text", "content":[{"text":"No reason to go back out. I need to get some rest","face":"p_lookdown"}]}
+],
     "layer0":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 1,1,1,1,1,1,1,1,282,283,283,283,283,283,283,283,283,284,1,1,1,1,1,1,1,1,1,
 1,1,1,1,1,1,1,1,262,263,263,263,263,263,263,263,263,264,1,1,1,1,1,1,1,1,1,
