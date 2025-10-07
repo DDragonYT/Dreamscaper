@@ -8,3 +8,4 @@ with open("newmap.txt", "w") as newmap:
         text += line.strip("\n") + "\n"
     newmap.write(text)
         
+        

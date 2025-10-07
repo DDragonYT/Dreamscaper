@@ -1,14 +1,20 @@
 {"height": 33,
  "width": 25,
   "cam_bump": 0,
-  "doors": [],
-  "door_info": [{"map": 5, "destx": 16, "desty": 202, "x": 716, "y": 206}, {"map": 5, "destx": 16, "desty": 202, "x": 716, "y": 164}], 
+  "doors": [812, 813, 814, 815],
+  "door_info": [
+    {"map": 8, "destx": 224, "desty": 26, "x":374,"y":1028},
+    {"map": 8, "destx": 224, "desty": 26, "x":376,"y":1028},
+    {"map": 8, "destx": 224, "desty": 26, "x":418,"y":1028},
+    {"map": 8, "destx": 224, "desty": 26, "x":462,"y":1028}
+  ], 
   "interact":[],
   "interact_id":[1,1,1,1,1],
   "interact_infos":[
     {"type":"event","event":"dreamworld", "content":[{"text":"Finally.. I get to sleep.","face":"p_lookdown"}]}
     
   ],
+  "entities":[],
 
   "layer0": [
   0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,
