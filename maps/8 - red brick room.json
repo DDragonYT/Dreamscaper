@@ -1,16 +1,23 @@
 {"height": 23,
  "width": 39,
   "cam_bump": 0,
-  "doors": [-69, -70, -71],
-  "door_info": [{"map": 7, "destx": 414, "desty": 934, "x":264,"y":-48},
-  {"map": 7, "destx": 414, "desty": 934, "x":222,"y":-48},
-  {"map": 7, "destx": 414, "desty": 934, "x":184,"y":-48}
+  "doors": [848, 849, 850, 851, 852, -30, -31, -32],
+  "door_info": [
+    {"map": 2, "destx": 428, "desty": 18, "x":916,"y":694},
+    {"map": 2, "destx": 428, "desty": 18, "x":936,"y":694},
+    {"map": 2, "destx": 454, "desty": 18, "x":978,"y":694},
+    {"map": 2, "destx": 480, "desty": 18, "x":1014,"y":694},
+    {"map": 2, "destx": 480, "desty": 18, "x":1038,"y":694},
+    {"map": 7, "destx": 426, "desty": 980, "x":270,"y":-32},
+    {"map": 7, "destx": 418, "desty": 980, "x":226,"y":-32},
+    {"map": 7, "destx": 374, "desty": 980, "x":190,"y":-32}
+
+
 ], 
   "interact":[],
-  "interact_id":[1,1,1,1,1],
+  "interact_id":[],
   "interact_infos":[
-    {"type":"event","event":"dreamworld", "content":[{"text":"Finally.. I get to sleep.","face":"p_lookdown"}]}
-    
+  
   ],
   "entities":[
     {"id":"toothdemon","x":725, "y":368,"interact_events":[
