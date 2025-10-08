@@ -20,7 +20,7 @@
   
   ],
   "entities":[
-    {"id":"toothdemon","x":725, "y":368,"interact_events":[
+    {"id":"toothdemon","x":725, "y":368,"size":32, "interact_events":[
       {"type":"text", "content":[{"text":"Hey, you there!","face":"toothdemon"},{"text":"Yeah?","face":"p_lookdown"}, {"text":"Make sure to KYS, okay?","face":"toothdemon"}, {"text":"...?","face":"p_lookahead"}]},
       {"type":"text", "content":[{"text":"I mean Keep Yourself Safe by the way :)","face":"toothdemon"},{"text":"You could have just said that..","face":"p_somber"}]}
     ]}
