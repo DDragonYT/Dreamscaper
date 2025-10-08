@@ -1,0 +1,16 @@
+[
+    {
+        "name":"Sack",
+        "health":170,
+        "head_area":[70, 115],
+        "body_area":[0, 70],
+        "turns":[
+            {
+                "text1":"The room is silent, Sack appears to be resting",
+                "dealdamage": "It seemed to feel that.. maybe keep going?",
+                "miss":"He's still, don't miss next time",
+                "attacks":[]
+            }
+        ]
+    }
+]
