@@ -1,9 +1,11 @@
 [
     {
         "name":"Sack",
-        "health":170,
+        "health":150,
         "head_area":[70, 115],
         "body_area":[0, 70],
+        "death_text":"He's gone. You can get through now.",
+        "check":"It's Sack. He can't move as his limbs have all been torn off by other creatures in the dreamworld.",
         "turns":[
             {
                 "text1":"The room is silent, Sack appears to be resting",

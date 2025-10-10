@@ -19,7 +19,8 @@
     ]},
     {"id":"sack","x":450,"y":388,"size":32,"interact_events":[
       {"type":"text", "content":[{"text":"Excuse me","face":"p_lookahead"}, {"text":"...","face":"sack"}]},{"type":"text", "content":[{"text":"Hello?","face":"p_lookahead"}, {"text":".....","face":"sack"}, {"text":"I need you to move","face":"p_interested"}, {"text":"......","face":"sack"}]},{"type":"text", "content":[{"text":"Seriously, I need you to move. I need to get through","face":"p_somber"}, {"text":".......","face":"sack"}]},
-      {"type":"text", "content":[{"text":"..........","face":"sack"}, {"text":"(I'm going to need to move him by force. He's not going anywhere)","face":"p_depressed"}]}
+      {"type":"text", "content":[{"text":"..........","face":"sack"}, {"text":"(I'm going to need to move him by force. He's not going anywhere)","face":"p_depressed"}]}, 
+      {"type":"event", "event":"sackfight", "content":[{"text":"Alright. I've had enough.","face":"p_somber"}, {"text":"...","face":"saddersack"}]}
     ]}
     ],
     "layer0":[1,1,1,1,1,1,1,1,1,1,1,1,146,142,144,186,1,1,1,1,1,1,1,1,1,1,0,
