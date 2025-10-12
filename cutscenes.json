@@ -1,0 +1,8 @@
+[
+    {"text":"It's time I leave","face":"p_lookdown"},
+    {"text":"What have you done...", "face":"mouws"},
+    {"text":"...", "face":"p_depressed"}
+]
+
+{"type":"text", "content":[{"text":"...","face":"mouws"}]}
+
