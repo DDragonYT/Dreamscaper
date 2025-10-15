@@ -3,6 +3,13 @@
     "width":27,
     "cam_bump":0,
     "doors":[-40, -39],
+    "interact":[365, 366],
+    "interact_id":[1,1],  
+    "interact_infos":[
+    {"type":"event","event":"enddream", "content":[{"text":"Time to wake up.","face":"p_lookdown"}]}
+    
+  ],
+
     "door_info":[{
       "map": 2,
       "x":434,"y":-44, "destx":430,"desty":1136
@@ -15,11 +22,11 @@
     }],
     "entities":[
       {"id":"mouws","x":322,"y":296,"size":16,"interact_events":[
-      {"type":"text", "content":[{"text":"Stay calm, okay?","face":"mouws"},{"text":"..?","face":"p_lookahead"}, {"text":"Just don't hurt Sack","face":"mouws"}, {"text":"What?","face":"p_interested"},{"text":"He's dealt with enough already","face":"mouws_up"}, {"text":"Okay..?","face":"p_lookahead"}]}
+      {"type":"text", "content":[{"text":"Stay calm, okay?","face":"mouws"},{"text":"..?","face":"p_lookahead"}, {"text":"Just don't hurt Sack.","face":"mouws"}, {"text":"What?","face":"p_interested"},{"text":"He's dealt with enough already.","face":"mouws_up"}, {"text":"Okay..?","face":"p_lookahead"}]}
     ]},
     {"id":"sack","x":450,"y":388,"size":32,"interact_events":[
-      {"type":"text", "content":[{"text":"Excuse me","face":"p_lookahead"}, {"text":"...","face":"sack"}]},{"type":"text", "content":[{"text":"Hello?","face":"p_lookahead"}, {"text":".....","face":"sack"}, {"text":"I need you to move","face":"p_interested"}, {"text":"......","face":"sack"}]},{"type":"text", "content":[{"text":"Seriously, I need you to move. I need to get through","face":"p_somber"}, {"text":".......","face":"sack"}]},
-      {"type":"text", "content":[{"text":"..........","face":"sack"}, {"text":"(I'm going to need to move him by force. He's not going anywhere)","face":"p_depressed"}]}, 
+      {"type":"text", "content":[{"text":"Excuse me,","face":"p_lookahead"}, {"text":"...","face":"sack"}]},{"type":"text", "content":[{"text":"Hello?","face":"p_lookahead"}, {"text":".....","face":"sack"}, {"text":"Hey, I need you to move.","face":"p_interested"}, {"text":"......","face":"sack"}]},{"type":"text", "content":[{"text":"Seriously, I need you to move. I need to get through here.","face":"p_somber"}, {"text":".......","face":"sack"}]},
+      {"type":"text", "content":[{"text":"..........","face":"sack"}, {"text":"(I'm going to need to use force.)","face":"p_depressed"}]}, 
       {"type":"event", "event":"sackfight", "content":[{"text":"Alright. I've had enough.","face":"p_somber"}, {"text":"...","face":"saddersack"}]}
     ]}
     ],

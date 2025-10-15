@@ -30,10 +30,10 @@
     ],
     "interact":[313, 314, 315, 332, 333, 327, 326, 298, 297],
     "interact_id":[1,1,1, 2, 2, 3, 3, 4, 4],
-    "interact_infos":[{"type":"text", "content":[{"text":"The words 'so tired' are scrawled on the wall","face":""},{"text":"It was a really long day, alright?","face":"p_somber"}]},
-  {"type":"text", "content":[{"text":"It's a broken mirror","face":""},{"text":"...","face":"p_lookahead"}]},
-  {"type":"text", "content":[{"text":"It's a broken mirror..","face":""},{"text":"again.","face":""},{"text":".....","face":"p_somber"}]},
-{"type":"text", "content":[{"text":"It's another broken mirror..","face":""},{"text":".......","face":"p_depressed"},{"text":"I have a thing with mirrors.","face":"p_depressed"}]}
+    "interact_infos":[{"type":"text", "content":[{"text":"The words 'so’ and ‘tired' are scrawled across the wall.","face":""},{"text":"It was a really long day, alright?","face":"p_somber"}]},
+  {"type":"text", "content":[{"text":"It's a broken mirror.","face":""},{"text":"...","face":"p_lookahead"}]},
+  {"type":"text", "content":[{"text":"It's a broken mirror.","face":""},{"text":"again.","face":""},{"text":".....","face":"p_somber"}]},
+{"type":"text", "content":[{"text":"It's another broken mirror...","face":""},{"text":".......","face":"p_depressed"},{"text":"I have a complicated relationship with mirrors.","face":"p_depressed"}]}
 ],
   
     "layer0":[

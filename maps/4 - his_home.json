@@ -19,8 +19,8 @@
     ],
     "interact":[183, 157, 229, 230],
     "interact_id":[1,1,2,2],
-    "interact_infos":[{"type":"text", "content":[{"text":"It appears to be a homemade barricade... no way of getting past","face":""},{"text":"Clearly someone forgot to clean up.","face":"p_lookahead"}]},
-{"type":"text", "content":[{"text":"No reason to go back out. I need to get some rest","face":"p_lookdown"}]}
+    "interact_infos":[{"type":"text", "content":[{"text":"It appears to be a homemade barricade... no way of getting past.","face":""},{"text":"Someone clearly forgot to clean up.","face":"p_lookahead"}]},
+{"type":"text", "content":[{"text":"No reason to go back out. I need to get some rest.","face":"p_lookdown"}]}
 ],
     "layer0":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 1,1,1,1,1,1,1,1,282,283,283,283,283,283,283,283,283,284,1,1,1,1,1,1,1,1,1,
@@ -34,7 +34,7 @@
 371,371,371,371,371,371,371,372,370,371,371,371,371,371,371,371,371,372,370,371,371,371,371,371,371,371,1,
 371,371,371,371,371,371,371,372,370,371,371,371,371,371,371,371,371,372,370,371,371,371,371,371,371,371,1,
 351,351,351,351,351,351,351,352,370,371,371,371,371,371,371,371,371,372,350,351,351,351,351,351,351,351,1,
-41,41,41,41,41,41,41,41,350,351,351,351,351,351,351,351,351,352,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,350,351,351,351,351,351,351,351,351,352,1,1,1,1,1,1,1,1,1,
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 
 ],
