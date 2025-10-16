@@ -8,13 +8,18 @@
     {"map": 8, "destx": 224, "desty": 26, "x":418,"y":1028},
     {"map": 8, "destx": 224, "desty": 26, "x":462,"y":1028}
   ], 
-  "interact":[],
-  "interact_id":[1,1,1,1,1],
+  "interact":[284, 268],
+  "interact_id":[1, 2],
   "interact_infos":[
-    {"type":"event","event":"dreamworld", "content":[{"text":"Finally.. I get to sleep.","face":"p_lookdown"}]}
+    {"type":"text","content":[{"text":"The window looks out into the horizon...","face":""}, {"text":"There's too much grime on the glass to properly tell whats out there.","face":""}]},
+    {"type":"text","content":[{"text":"It's a strange looking trash can.","face":""}, {"text":"Hey! I put a lot of effort into that!","face":"saggle_sparkle"}, {"text":"...","face":"p_lookdown"},{"text":"(Why is this egg talking to himself?)","face":"p_somber"}]}
     
   ],
-  "entities":[],
+  "entities":[
+    {"id":"saggle","x":284,"y":334,"size":32, "interact_events":[
+      {"type":"text", "content":[{"text":"Man, isn't the dreamworld just great?","face":"saggle_sparkle"},{"text":"There are so many cool people here, I just can't believe it!","face":"saggle_left"},{"text":"It would be such a shame if someone died!","face":"saggle_right"}]}
+    ]}
+  ],
 
   "layer0": [
   0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,

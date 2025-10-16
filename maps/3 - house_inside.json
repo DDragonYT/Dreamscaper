@@ -21,7 +21,7 @@
       
     }],
     "entities":[
-      {"id":"mouws","x":322,"y":296,"size":16,"interact_events":[
+      {"id":"mouws","x":322,"y":280,"size":28,"interact_events":[
       {"type":"text", "content":[{"text":"Stay calm, okay?","face":"mouws"},{"text":"..?","face":"p_lookahead"}, {"text":"Just don't hurt Sack.","face":"mouws"}, {"text":"What?","face":"p_interested"},{"text":"He's dealt with enough already.","face":"mouws_up"}, {"text":"Okay..?","face":"p_lookahead"}]}
     ]},
     {"id":"sack","x":450,"y":388,"size":32,"interact_events":[
