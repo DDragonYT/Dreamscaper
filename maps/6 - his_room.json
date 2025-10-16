@@ -3,11 +3,14 @@
   "cam_bump": 0,
   "doors": [161, 138],
   "door_info": [{"map": 5, "destx": 16, "desty": 202, "x": 716, "y": 206}, {"map": 5, "destx": 16, "desty": 202, "x": 716, "y": 164}], 
-  "interact":[81, 82, 105, 128, 127],
-  "interact_id":[1,1,1,1,1],
+  "interact":[81,82,105,128,127, 179,180,202,225,203,226, 199,198,197,222,220, 129, 88],
+  "interact_id":[1,1,1,1,1, 2,2,2,2,2,2, 3,3,3,3,3, 4, 5],
   "interact_infos":[
-    {"type":"event","event":"dreamworld", "content":[{"text":"Finally.. I get to sleep.","face":"p_lookdown"}]}
-    
+    {"type":"event","event":"dreamworld", "content":[{"text":"Finally.. I get to sleep.","face":"p_lookdown"}]},
+    {"type":"text","content":[{"text":"It's a very odd desk setup. The computer screen has been smashed.","face":""},{"text":"I got a virus...","face":"p_lookdown"},{"text":"I was told that the computer was a goner so I put it out of it's misery.","face":"p_lookahead"}]},
+    {"type":"text","content":[{"text":"It's some very long drawers.","face":""},{"text":"Upon inspection, they're completely empty.","face":""}]},
+    {"type":"text","content":[{"text":"It's a rather cute bedside table.","face":""},{"text":"I got it at a garage sale for two dollars.","face":"p_lookahead"},{"text":"As it turned out, the drawer doesn't actually work.","face":"p_lookdown"}]},
+    {"type":"text","content":[{"text":"It's my favourite plush toy.","face":"p_lookahead"},{"text":"Don't ask why he looks so sad. I couldn't tell you.", "face":"p_somber"}]}
   ],
 
   "layer0": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 342, 283, 283, 283, 283, 283, 283, 283, 283, 283, 284, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 322, 263, 263, 263, 263, 263, 263, 263, 263, 263, 264, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 322, 263, 263, 263, 263, 263, 263, 263, 263, 263, 264, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 322, 263, 263, 263, 263, 263, 263, 263, 263, 263, 263, 283, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 322, 263, 263, 263, 263, 263, 263, 263, 263, 263, 263, 243, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 322, 263, 263, 263, 263, 263, 263, 263, 263, 263, 264, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 322, 263, 263, 263, 263, 263, 263, 263, 263, 263, 264, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 302, 243, 243, 243, 243, 243, 243, 243, 243, 243, 244, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
