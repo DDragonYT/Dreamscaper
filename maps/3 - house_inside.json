@@ -3,11 +3,15 @@
     "width":27,
     "cam_bump":0,
     "doors":[-40, -39],
-    "interact":[365, 366],
-    "interact_id":[1,1],  
+    "interact":[365, 366, 307, 235, 315, 316],
+    "interact_id":[1,1, 2,3, 4, 5],  
     "interact_infos":[
-    {"type":"event","event":"enddream", "content":[{"text":"Time to wake up.","face":"p_lookdown"}]}
-    
+    {"type":"event","event":"enddream", "content":[{"text":"Time to wake up.","face":"p_lookdown"}]},
+    {"type":"text","content":[{"text":"It's a strange plush toy. It appears to have been well loved.","face":""}, {"text":"That plush looks a lot like mine...","face":"p_lookahead"}, {"text":"huh.","face":"p_interested"}]},
+    {"type":"text","content":[{"text":"There's a note.","face":""},{"text":"On the page, a message has been scrawled.","face":""},
+      {"text":"It reads 'Sad. I'm so, so sad'.","face":""}, {"text":"Whoever wrote this really needs to see a therapist.","face":"p_lookdown"}]},
+    {"type":"text","content":[{"text":"It's a set of drawers.","face":""},{"text":"The drawers are full to the brim with pieces of paper scrawled with mesasges.","face":""}]},
+    {"type":"text","content":[{"text":"It's another set of drawers.","face":""},{"text":"This one's drawers contain some blue plush toys.","face":""}]}    
   ],
 
     "door_info":[{

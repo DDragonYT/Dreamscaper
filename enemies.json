@@ -10,7 +10,37 @@
             {
                 "text1":"The room is silent, Sack appears to be resting",
                 "dealdamage": "It seemed to feel that.. maybe keep going?",
-                "miss":"He's still, don't miss next time",
+                "miss":"He's still, don't miss next time.",
+                "attacks":[]
+            },
+            {
+                "text1":"A soft smoke is rising from the floor.",
+                "dealdamage": "He's hurt. Don't stop now.",
+                "miss":"No backing out now, hit him.",
+                "attacks":[]
+            },
+            {
+                "text1":"He seems to be unconscious, yet his eye sockets appear to look straight at you.",
+                "dealdamage": "Blood is dripping out of his shirt sleeves.",
+                "miss":"This is the easiest shot ever. Don't miss again.",
+                "attacks":[]
+            },
+            {
+                "text1":"Sack seems to be preparing an attack...",
+                "dealdamage": "However, it seemed your attack ruined his preparation.",
+                "miss":"He moves to attack... however nothing happened.",
+                "attacks":[]
+            },
+            {
+                "text1":"",
+                "dealdamage": "",
+                "miss":"",
+                "attacks":[]
+            },
+            {
+                "text1":"",
+                "dealdamage": "",
+                "miss":"",
                 "attacks":[]
             }
         ]
