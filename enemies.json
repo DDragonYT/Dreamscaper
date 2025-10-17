@@ -8,10 +8,61 @@
         "check":"It's Sack. He can't move as his limbs have all been torn off by other creatures in the dreamworld.",
         "turns":[
             {
-                "text1":"The room is silent, Sack appears to be resting",
+                "text1":"The room is silent, Sack appears to be resting.",
                 "dealdamage": "It seemed to feel that.. maybe keep going?",
                 "miss":"He's still, don't miss next time.",
                 "attacks":[]
+            },
+            {
+                "text1":"A soft smoke is rising from the floor.",
+                "dealdamage": "It's hurt. Don't stop now.",
+                "miss":"No backing out now, hit him.",
+                "attacks":[]
+            },
+            {
+                "text1":"It seems to be unconscious, yet it's eye sockets appear to look straight at you.",
+                "dealdamage": "What blue blood is dripping down it's shirt...",
+                "miss":"This is the easiest shot ever. Don't miss again.",
+                "attacks":[]
+            },
+            {
+                "text1":"Sack seems to be preparing an attack...",
+                "dealdamage": "However, it seemed your attack ruined his preparation.",
+                "miss":"He moves to attack... however nothing happened.",
+                "attacks":[]
+            },
+            {
+                "text1":"The air smells of rotting hay...",
+                "dealdamage": "",
+                "miss":"",
+                "attacks":[]
+            },
+            {
+                "text1":"",
+                "dealdamage": "",
+                "miss":"",
+                "attacks":[]
+            }
+        ]
+    },
+    {
+        "name":"Mair",
+        "health":150,
+        "head_area":[70, 115],
+        "body_area":[0, 70],
+        "death_text":"He's gone. You can get through now.",
+        "check":"It's Sack. He can't move as his limbs have all been torn off by other creatures in the dreamworld.",
+        "turns":[
+            {
+                "text1":"The strange entity is staring you down.",
+                "dealdamage": "The entity recoiled in pain. Their seems to be a creature under the mask.",
+                "miss":"You hear an otherworldy giggle from under the mask.",
+                "attacks":[
+                    {
+                        "pattern":[1,2,2,2,1,2,1,2,1,2,1,2,1],
+                        "speed":1
+                }
+                ]
             },
             {
                 "text1":"A soft smoke is rising from the floor.",
