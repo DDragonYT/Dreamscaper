@@ -20,12 +20,6 @@
                 "attacks":[]
             },
             {
-                "text1":"It seems to be unconscious, yet its eye sockets appear to look straight at you.",
-                "dealdamage": "Blue blood is dripping down its shirt...",
-                "miss":"This is the easiest shot ever. Don't miss again.",
-                "attacks":[]
-            },
-            {
                 "text1":"Sack seems to be preparing an attack...",
                 "dealdamage": "He moves to attack...",
                 "miss":"He moves to attack...",
@@ -38,16 +32,22 @@
                 ]
             },
             {
-                "text1":"The air smells of rotting hay...",
-                "dealdamage": "",
-                "miss":"",
+                "text1":"It seems to be unconscious, yet its eye sockets appear to look straight at you.",
+                "dealdamage": "Blue blood is dripping down its shirt...",
+                "miss":"This is the easiest shot ever. Don't miss again.",
                 "attacks":[]
             },
             {
-                "text1":"",
-                "dealdamage": "",
-                "miss":"",
-                "attacks":[]
+                "text1":"The air smells of rotting hay...",
+                "dealdamage": "He's nearly dead. Finish the job.",
+                "miss":"Do not miss again.",
+                "attacks":[
+                    {
+                        "pattern":[0,0,0,0,0,0,1,0,0,0,0,0,0,2],
+                        "speed":8,
+                        "delay":0.3
+                    }
+                ]
             }
         ]
     },
