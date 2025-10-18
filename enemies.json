@@ -20,16 +20,22 @@
                 "attacks":[]
             },
             {
-                "text1":"It seems to be unconscious, yet it's eye sockets appear to look straight at you.",
-                "dealdamage": "What blue blood is dripping down it's shirt...",
+                "text1":"It seems to be unconscious, yet its eye sockets appear to look straight at you.",
+                "dealdamage": "Blue blood is dripping down its shirt...",
                 "miss":"This is the easiest shot ever. Don't miss again.",
                 "attacks":[]
             },
             {
                 "text1":"Sack seems to be preparing an attack...",
-                "dealdamage": "However, it seemed your attack ruined his preparation.",
-                "miss":"He moves to attack... however nothing happened.",
-                "attacks":[]
+                "dealdamage": "He moves to attack...",
+                "miss":"He moves to attack...",
+                "attacks":[
+                    {
+                        "pattern":[0,0,0,0,0,0,1,0,0,0,0,0,0,2],
+                        "speed":6,
+                        "delay":0.3
+                    }
+                ]
             },
             {
                 "text1":"The air smells of rotting hay...",
@@ -55,20 +61,32 @@
         "turns":[
             {
                 "text1":"The strange entity is staring you down.",
-                "dealdamage": "The entity recoiled in pain. Their seems to be a creature under the mask.",
+                "dealdamage": "The entity recoiled in pain. There seems to be a creature under the mask.",
                 "miss":"You hear an otherworldy giggle from under the mask.",
                 "attacks":[
                     {
                         "pattern":[1,2,2,2,1,2,1,2,1,2,1,2,1],
-                        "speed":1
-                }
+                        "speed":6,
+                        "delay":0.3
+                    }
                 ]
             },
             {
                 "text1":"A soft smoke is rising from the floor.",
                 "dealdamage": "He's hurt. Don't stop now.",
                 "miss":"No backing out now, hit him.",
-                "attacks":[]
+                "attacks":[
+                    {
+                        "pattern":[1,2,0,1,2,0,1,2,0,1,1,1,2,2,2],
+                        "speed":6,
+                        "delay":0.3
+                    },
+                    {
+                        "pattern":[1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2],
+                        "speed":6,
+                        "delay":0.1
+                    }
+                ]
             },
             {
                 "text1":"He seems to be unconscious, yet his eye sockets appear to look straight at you.",
