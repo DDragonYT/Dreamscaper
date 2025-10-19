@@ -53,8 +53,8 @@
     },
     {
         "name":"Mair",
-        "health":999,
-        "head_area":[0,0],
+        "health":250,
+        "head_area":[71,71],
         "body_area":[0, 70],
         "death_text":"The bird has been stoned.",
         "check":"??? - It's wearing a plague doctor mask.",
@@ -83,6 +83,18 @@
                     },
                     {
                         "pattern":[1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2],
+                        "speed":6,
+                        "delay":0.1
+                    }
+                ]
+            },
+            {
+                "text1":"It has something to show you.",
+                "dealdamage": "It didn't seem to mind too much that time.",
+                "miss":"It is eagerly watching.",
+                "attacks":[
+                    {
+                        "pattern":[2,2,0,0,1,1,0,0,1,2,0,0,2,1,0,0,2,1,2,1,2,1,2,1,0,0,0,0,1,1,2,2,1,1,2,2,1,1,2,2],
                         "speed":6,
                         "delay":0.1
                     }
