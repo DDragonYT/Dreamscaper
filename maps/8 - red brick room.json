@@ -3,11 +3,11 @@
   "cam_bump": 0,
   "doors": [848, 849, 850, 851, 852, -30, -31, -32, -33],
   "door_info": [
-    {"map": 2, "destx": 428, "desty": 18, "x":916,"y":694},
-    {"map": 2, "destx": 428, "desty": 18, "x":936,"y":694},
-    {"map": 2, "destx": 454, "desty": 18, "x":978,"y":694},
-    {"map": 2, "destx": 480, "desty": 18, "x":1014,"y":694},
-    {"map": 2, "destx": 480, "desty": 18, "x":1038,"y":694},
+    {"map": 9, "destx": 368, "desty": 18, "x":916,"y":694},
+    {"map": 9, "destx": 368, "desty": 18, "x":936,"y":694},
+    {"map": 9, "destx": 368, "desty": 18, "x":978,"y":694},
+    {"map": 9, "destx": 368, "desty": 18, "x":1014,"y":694},
+    {"map": 9, "destx": 368, "desty": 18, "x":1038,"y":694},
     {"map": 7, "destx": 426, "desty": 980, "x":270,"y":-32},
     {"map": 7, "destx": 418, "desty": 980, "x":226,"y":-32},
     {"map": 7, "destx": 374, "desty": 980, "x":190,"y":-32},
@@ -28,9 +28,10 @@
   ],
   "entities":[
     {"id":"toothdemon","x":725, "y":368,"size":32, "interact_events":[
-      {"type":"text", "content":[{"text":"Hey, you there!","face":"toothdemon"},{"text":"Yeah?","face":"p_lookdown"}, {"text":"Make sure to KYS, okay?","face":"toothdemon"}, {"text":"...?","face":"p_lookahead"}]},
-      {"type":"text", "content":[{"text":"I mean Keep Yourself Safe by the way :)","face":"toothdemon"},{"text":"You could have just said that…","face":"p_somber"}]}
-    ]}
+      {"type":"text", "content":[{"text":"Hey, you there!","face":"toothdemon"},{"text":"Yeah?","face":"p_lookahead"}, {"text":"Have you seen that egg guy right near that dead end?","face":"toothdemon"}, {"text":"Yeah?","face":"p_interested"}, {"text":"He totally stole my style!","face":"toothdemon"}, {"text":"...?","face":"p_somber"}, {"text":"You know...","face":"toothdemon"}, {"text":"The whole being round thing.","face":"toothdemon"}]}
+    ,{"type":"text", "content":[{"text":"He's such a poser...","face":"toothdemon"}]}
+    
+      ]}
   ],
 
   "layer0": [

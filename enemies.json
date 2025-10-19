@@ -5,7 +5,7 @@
         "head_area":[70, 115],
         "body_area":[0, 70],
         "death_text":"He's gone. You can get through now.",
-        "check":"It's Sack. He can't move as his limbs have all been torn off by other creatures in the dreamworld.",
+        "check":"Sack - He can't move as his limbs have all been torn off by other creatures in the dreamworld. For some reason he looks very familiar...",
         "turns":[
             {
                 "text1":"The room is silent, Sack appears to be resting.",
@@ -53,15 +53,15 @@
     },
     {
         "name":"Mair",
-        "health":150,
-        "head_area":[70, 115],
+        "health":999,
+        "head_area":[0,0],
         "body_area":[0, 70],
-        "death_text":"He's gone. You can get through now.",
-        "check":"It's Sack. He can't move as his limbs have all been torn off by other creatures in the dreamworld.",
+        "death_text":"The bird has been stoned.",
+        "check":"??? - It's wearing a plague doctor mask.",
         "turns":[
             {
-                "text1":"The strange entity is staring you down.",
-                "dealdamage": "The entity recoiled in pain. There seems to be a creature under the mask.",
+                "text1":"It is staring you down.",
+                "dealdamage": "It seems shaken. There seems to be a creature under the mask.",
                 "miss":"You hear an otherworldy giggle from under the mask.",
                 "attacks":[
                     {
@@ -72,9 +72,9 @@
                 ]
             },
             {
-                "text1":"A soft smoke is rising from the floor.",
-                "dealdamage": "He's hurt. Don't stop now.",
-                "miss":"No backing out now, hit him.",
+                "text1":"It seems to be interested in you.",
+                "dealdamage": "It definitely felt that one.",
+                "miss":"Its interest in you seems to grow.",
                 "attacks":[
                     {
                         "pattern":[1,2,0,1,2,0,1,2,0,1,1,1,2,2,2],
@@ -89,34 +89,40 @@
                 ]
             },
             {
-                "text1":"He seems to be unconscious, yet his eye sockets appear to look straight at you.",
-                "dealdamage": "Blood is dripping out of his shirt sleeves.",
-                "miss":"This is the easiest shot ever. Don't miss again.",
+                "text1":"It wants to test you.",
+                "dealdamage": "It's ready to show you how it attacks.",
+                "miss":"It's interest in you grows further.",
                 "attacks":[
                     {
-                        "pattern":[1,1,2,2,1,2,1,2,0,0,0,0,2,2,1,1,2,1,2,1,1,2,1,2,1,1,1,2,2,1,1,1,2,2,2,2],
+                        "pattern":[0,0,0,0,1,0,1,2,0,2,1,0,2,1,2,0,0,0,0,0,2,0,2,1,1,0,0,2,1,2,0,1,0,1,0,2,0,1,0,2,0,1,0,0,0,1,1,2,2,0,1,1,1,2,2,2,2],
                         "speed":6,
                         "delay":0.1
                     }
                 ]
             },
             {
-                "text1":"Sack seems to be preparing an attack...",
-                "dealdamage": "However, it seemed your attack ruined his preparation.",
-                "miss":"He moves to attack... however nothing happened.",
-                "attacks":[]
+                "text1":"It wants to test you again.",
+                "dealdamage": "It indicates for you to hit harder.",
+                "miss":"It is confused as to how you missed.",
+                "attacks":[
+                    {
+                        "pattern":[1,2,0,2,1,0,1,2,0,2,1,0,2,2,1,1,0,1,1,2,2,0],
+                        "speed":6,
+                        "delay":0.1
+                    }
+                ]
             },
             {
-                "text1":"",
-                "dealdamage": "",
-                "miss":"",
-                "attacks":[]
-            },
-            {
-                "text1":"",
-                "dealdamage": "",
-                "miss":"",
-                "attacks":[]
+                "text1":"It has grown bored of you.",
+                "dealdamage": "It let's out a childish giggle.",
+                "miss":"It teases you for missing again.",
+                "attacks":[
+                    {
+                        "pattern":[1,2,0,1,2,0,2,1,0,2,1,0,2,2,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0],
+                        "speed":7,
+                        "delay":0.1
+                    }
+                ]
             }
         ]
     }
