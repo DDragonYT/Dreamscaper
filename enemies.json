@@ -53,7 +53,7 @@
     },
     {
         "name":"Mair",
-        "health":250,
+        "health":333,
         "head_area":[71,71],
         "body_area":[0, 70],
         "death_text":"The bird has been stoned.",
@@ -73,7 +73,7 @@
             },
             {
                 "text1":"It seems to be interested in you.",
-                "dealdamage": "It definitely felt that one.",
+                "dealdamage": "It teases you for being weak.",
                 "miss":"Its interest in you seems to grow.",
                 "attacks":[
                     {
@@ -102,8 +102,8 @@
             },
             {
                 "text1":"It wants to test you.",
-                "dealdamage": "It's ready to show you how it attacks.",
-                "miss":"It's interest in you grows further.",
+                "dealdamage": "It seems to be having too much fun.",
+                "miss":"It's interest in you begins to wane.",
                 "attacks":[
                     {
                         "pattern":[0,0,0,0,1,0,1,2,0,2,1,0,2,1,2,0,0,0,0,0,2,0,2,1,1,0,0,2,1,2,0,1,0,1,0,2,0,1,0,2,0,1,0,0,0,1,1,2,2,0,1,1,1,2,2,2,2],
@@ -113,26 +113,44 @@
                 ]
             },
             {
-                "text1":"It wants to test you again.",
+                "text1":"It's losing interest in this exchange.",
                 "dealdamage": "It indicates for you to hit harder.",
                 "miss":"It is confused as to how you missed.",
                 "attacks":[
                     {
-                        "pattern":[1,2,0,2,1,0,1,2,0,2,1,0,2,2,1,1,0,1,1,2,2,0],
+                        "pattern":[1,2,0,2,1,0,1,2,0,2,1,0,2,2,1,1,0,1,1,2,2],
                         "speed":6,
                         "delay":0.1
                     }
                 ]
             },
             {
+                "text1":"It wants to wrap this up.",
+                "dealdamage": "It definitely felt that one.",
+                "miss":"It teases you for missing.",
+                "attacks":[
+                    {
+                        "pattern":[1,2,1,2,2,1,2,1,2,2,1,1,2,2,1,1,2,1,2,1,2,1,2,1,2,2,2,1,2,1,2,1,2,2,1,2,1,1,2,1,2,2,1,1,2,2,1,1,2,2],
+                        "speed":7,
+                        "delay":0.1
+                    }
+                ]
+            },
+            {
                 "text1":"It has grown bored of you.",
-                "dealdamage": "It let's out a childish giggle.",
+                "dealdamage": "It lets out a childish giggle.",
                 "miss":"It teases you for missing again.",
                 "attacks":[
                     {
-                        "pattern":[1,2,0,1,2,0,2,1,0,2,1,0,2,2,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0],
+                        "pattern":[1,2,0,1,2,0,2,1,0,2,1,0,2,2,0,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+                    0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,1,2,1,2,1,1,2,2],
                         "speed":7,
                         "delay":0.1
+                    },
+                    {
+                        "pattern":[0,0,0,0,0,0,0,0,0,0,0,0,0,1,2],
+                        "speed":7,
+                        "delay":0.01
                     }
                 ]
             }
